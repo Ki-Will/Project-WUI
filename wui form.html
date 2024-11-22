@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form controls</title>
+</head>
+<body>
+    <h1>Register here </h1>
+    <form action="tableOfanswers.html" method="GET" autocomplete="on">
+    <fieldset>
+        <legend>Contact info</legend>  
+        <table>
+        <tr><td>Enter Surname:</td><td><input type="text" name="surname" id="surname"></td></tr>
+        <tr><td>Enter Other names:</td><td><input type="text" name="name" id="name"></td></tr>
+        <tr><td>Enter age :</td><td><input type="number"  name="age" id="age" max="100" min="12" title="Enter age between 12 and 100" id="age"></td></tr>
+        <tr><td>Enter email:</td><td><input type="email" name="email" id="email"></td></tr>
+        <tr><td>Enter Password: </td><td><input type="password" name="password" id="password"></td></tr>
+        <tr><td>Confirm Password: </td><td><input type="password" name="password" id="password"></td></tr>
+        <tr><td> Enter phone number </td><td><input type="tel" name="tel" id="tel"></td></tr>
+        <tr><td>Select gender: </td><td><input type="radio" name="gender" id="gender" value="Male">Male <input type="radio" name="gender" id="gender" value="Female">Female</td></tr>
+    </table>    
+    </fieldset>
+    <fieldset>
+        <legend> rate us using range</legend> <br>
+        <input type="range" name="" id=""><br>
+        Where did you hear about us: <br>
+        <input type="checkbox" name="X" id="X"><label for="!X">X</label><br>
+        <input type="checkbox" name="Youtube" id="Youtube"><label for="!Youtube">Youtube</label><br>
+        <input type="checkbox" name="Facebook" id="Facebook"><label for="!Facebook">Facebook</label><br>
+        <input type="checkbox" name="Instagram" id="Instagram"><label for="!Instagram">Instagram</label><br>
+    </fieldset>
+    <fieldset>
+        <legend>Tell us your opinion</legend>
+        <textarea name="rep" id="rep" cols="40" rows="4" placeholder="Type your opinion here..."></textarea>
+    </fieldset>
+    <fieldset>
+        <button type="submit" value="Submit">Submit your response</button>
+    </fieldset>
+    </form>
+
+</body>
+</html>

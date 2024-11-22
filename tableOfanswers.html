@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document </title>
+</head>
+<body>
+    <table border="2">
+        <tr>
+            <th>Surname</th>
+            <th>Other names</th>
+            <th>Date of birth</th>
+            <th>Email</th>
+            <th>Phone number</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td><script>document.write(new URLSearchParams(window.location.search).get('surname'))</script></td>
+
+            <td><script>document.write(new URLSearchParams(window.location.search).get('name'))</script></td>
+            <td><script>document.write(new URLSearchParams(window.location.search).get('age'))</script></td>
+            <td><script>document.write(new URLSearchParams(window.location.search).get('email'))</script></td>
+            <td><script>document.write(new URLSearchParams(window.location.search).get('tel'))</script></td>
+            <td><script>document.write(new URLSearchParams(window.location.search).get('gender'))</script></td>
+
+        </tr>
+    </table>
+</body>
+</html>
